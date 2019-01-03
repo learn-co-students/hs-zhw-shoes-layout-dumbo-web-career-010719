@@ -106,8 +106,8 @@ iframe {
 }
 
 .wrapper {
-  width: 960px;
-  margin: 0 auto;
+  width: 66%;
+  margin: 0 17% 0 auto;
 }
 
 .shadow {
@@ -253,8 +253,12 @@ a.gplus:active { background-position: -80px -80px; }
 }
 
 /********** Sections **********/
+.font-change{
+  font-size:13px;
+}
 
 section {
+  margin-bottom: 20px;
   padding: 20px;
   background: white;
 }
@@ -262,6 +266,35 @@ section {
 section a {
   color: #555;
   text-decoration: underline;
+}
+.row {
+  /*float: left;*/
+  height: 500px;
+}
+
+.col-1 {
+  padding: 20px;
+  float: left;
+  width: 32%;
+  background: white;
+}
+ 
+.col-2 {
+  float: left;
+  width: 66%;
+  background: white;
+}
+ 
+.col-3 {
+ background: white;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+ 
+.first {
+  margin-left: 0;
 }
 
 /********** Details **********/
